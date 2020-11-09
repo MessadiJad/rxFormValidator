@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1689233E3C5B866C5CC983C /* Pods_rxFormValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB099B148B3ACED907E8C367 /* Pods_rxFormValidator.framework */; };
 		E165E97E25596F6000A939AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E97D25596F6000A939AF /* AppDelegate.swift */; };
 		E165E98025596F6000A939AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E97F25596F6000A939AF /* SceneDelegate.swift */; };
-		E165E98225596F6000A939AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E98125596F6000A939AF /* ViewController.swift */; };
 		E165E98525596F6000A939AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E165E98325596F6000A939AF /* Main.storyboard */; };
 		E165E98725596F6300A939AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E165E98625596F6300A939AF /* Assets.xcassets */; };
 		E165E98A25596F6300A939AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E165E98825596F6300A939AF /* LaunchScreen.storyboard */; };
+		E165E9E02559703600A939AF /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E9DF2559703600A939AF /* SignUpModel.swift */; };
+		E165E9E32559704700A939AF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E9E22559704700A939AF /* SignUpViewController.swift */; };
+		E165E9E72559705700A939AF /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E9E62559705700A939AF /* SignUpViewModel.swift */; };
+		E165E9F9255973DA00A939AF /* BindingOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E9F8255973DA00A939AF /* BindingOperators.swift */; };
+		E165E9FF2559742600A939AF /* General+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165E9FE2559742600A939AF /* General+Extensions.swift */; };
+		E165EA022559760700A939AF /* Rx+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165EA012559760700A939AF /* Rx+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C0109D93CA076CE3147CE9F /* Pods-rxFormValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxFormValidator.release.xcconfig"; path = "Target Support Files/Pods-rxFormValidator/Pods-rxFormValidator.release.xcconfig"; sourceTree = "<group>"; };
+		B97C04D3EC8CA7BDC4B08C7D /* Pods-rxFormValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxFormValidator.debug.xcconfig"; path = "Target Support Files/Pods-rxFormValidator/Pods-rxFormValidator.debug.xcconfig"; sourceTree = "<group>"; };
 		E165E97A25596F6000A939AF /* rxFormValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxFormValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E165E97D25596F6000A939AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E165E97F25596F6000A939AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E165E98125596F6000A939AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E165E98425596F6000A939AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E165E98625596F6300A939AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E165E98925596F6300A939AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E165E98B25596F6300A939AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E165E9DF2559703600A939AF /* SignUpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		E165E9E22559704700A939AF /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E165E9E62559705700A939AF /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		E165E9F8255973DA00A939AF /* BindingOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingOperators.swift; sourceTree = "<group>"; };
+		E165E9FE2559742600A939AF /* General+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "General+Extensions.swift"; sourceTree = "<group>"; };
+		E165EA012559760700A939AF /* Rx+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rx+Extension.swift"; sourceTree = "<group>"; };
+		FB099B148B3ACED907E8C367 /* Pods_rxFormValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxFormValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1689233E3C5B866C5CC983C /* Pods_rxFormValidator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F5C13F44C2F54BFD8693203 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B97C04D3EC8CA7BDC4B08C7D /* Pods-rxFormValidator.debug.xcconfig */,
+				8C0109D93CA076CE3147CE9F /* Pods-rxFormValidator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E165E97125596F6000A939AF = {
 			isa = PBXGroup;
 			children = (
 				E165E97C25596F6000A939AF /* rxFormValidator */,
 				E165E97B25596F6000A939AF /* Products */,
+				7F5C13F44C2F54BFD8693203 /* Pods */,
+				FC4689568EB1E123F9AD2618 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,60 @@
 		E165E97C25596F6000A939AF /* rxFormValidator */ = {
 			isa = PBXGroup;
 			children = (
+				E165E9FC255973EA00A939AF /* Utility Classes */,
+				E165E9DE2559702700A939AF /* Controller */,
+				E165E9DD2559701700A939AF /* ViewModel */,
+				E165E9DC2559701100A939AF /* Model */,
 				E165E97D25596F6000A939AF /* AppDelegate.swift */,
 				E165E97F25596F6000A939AF /* SceneDelegate.swift */,
-				E165E98125596F6000A939AF /* ViewController.swift */,
 				E165E98325596F6000A939AF /* Main.storyboard */,
 				E165E98625596F6300A939AF /* Assets.xcassets */,
 				E165E98825596F6300A939AF /* LaunchScreen.storyboard */,
 				E165E98B25596F6300A939AF /* Info.plist */,
 			);
 			path = rxFormValidator;
+			sourceTree = "<group>";
+		};
+		E165E9DC2559701100A939AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E165E9DF2559703600A939AF /* SignUpModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E165E9DD2559701700A939AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E165E9E62559705700A939AF /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E165E9DE2559702700A939AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E165E9E22559704700A939AF /* SignUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E165E9FC255973EA00A939AF /* Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E165EA012559760700A939AF /* Rx+Extension.swift */,
+				E165E9FE2559742600A939AF /* General+Extensions.swift */,
+				E165E9F8255973DA00A939AF /* BindingOperators.swift */,
+			);
+			path = "Utility Classes";
+			sourceTree = "<group>";
+		};
+		FC4689568EB1E123F9AD2618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB099B148B3ACED907E8C367 /* Pods_rxFormValidator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E165E98E25596F6300A939AF /* Build configuration list for PBXNativeTarget "rxFormValidator" */;
 			buildPhases = (
+				13F2C915C930C357FEF918BD /* [CP] Check Pods Manifest.lock */,
 				E165E97625596F6000A939AF /* Sources */,
 				E165E97725596F6000A939AF /* Frameworks */,
 				E165E97825596F6000A939AF /* Resources */,
+				D06C7EDF0CC76096CE271D98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +205,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13F2C915C930C357FEF918BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rxFormValidator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06C7EDF0CC76096CE271D98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rxFormValidator/Pods-rxFormValidator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rxFormValidator/Pods-rxFormValidator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rxFormValidator/Pods-rxFormValidator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E165E97625596F6000A939AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E165E98225596F6000A939AF /* ViewController.swift in Sources */,
+				E165E9FF2559742600A939AF /* General+Extensions.swift in Sources */,
 				E165E97E25596F6000A939AF /* AppDelegate.swift in Sources */,
 				E165E98025596F6000A939AF /* SceneDelegate.swift in Sources */,
+				E165E9E72559705700A939AF /* SignUpViewModel.swift in Sources */,
+				E165E9E02559703600A939AF /* SignUpModel.swift in Sources */,
+				E165E9E32559704700A939AF /* SignUpViewController.swift in Sources */,
+				E165E9F9255973DA00A939AF /* BindingOperators.swift in Sources */,
+				E165EA022559760700A939AF /* Rx+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +403,7 @@
 		};
 		E165E98F25596F6300A939AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97C04D3EC8CA7BDC4B08C7D /* Pods-rxFormValidator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +417,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.messadi.rxFormValidator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E165E99025596F6300A939AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0109D93CA076CE3147CE9F /* Pods-rxFormValidator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.messadi.rxFormValidator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
